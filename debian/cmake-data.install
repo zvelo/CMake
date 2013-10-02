@@ -1,0 +1,30 @@
+Docs/cmake-mode.el  usr/share/emacs/site-lisp
+debian/cmake.xpm    usr/share/pixmaps
+usr/share/cmake-2.8/*
+usr/share/doc/cmake/cmake-commands.html
+usr/share/doc/cmake/cmake-commands.txt
+usr/share/doc/cmake/cmake-compatcommands.html
+usr/share/doc/cmake/cmake-compatcommands.txt
+usr/share/doc/cmake/cmake-modules.html
+usr/share/doc/cmake/cmake-modules.txt
+usr/share/doc/cmake/cmake-policies.html
+usr/share/doc/cmake/cmake-policies.txt
+usr/share/doc/cmake/cmake-properties.html
+usr/share/doc/cmake/cmake-properties.txt
+usr/share/doc/cmake/cmake-variables.html
+usr/share/doc/cmake/cmake-variables.txt
+usr/share/doc/cmake/cmake.docbook
+usr/share/doc/cmake/cmake.html
+usr/share/doc/cmake/cmake.txt
+usr/share/doc/cmake/cpack.docbook
+usr/share/doc/cmake/cpack.html
+usr/share/doc/cmake/cpack.txt
+usr/share/doc/cmake/ctest.docbook
+usr/share/doc/cmake/ctest.html
+usr/share/doc/cmake/ctest.txt
+usr/share/man/man1/cmakecommands.1
+usr/share/man/man1/cmakecompat.1
+usr/share/man/man1/cmakemodules.1
+usr/share/man/man1/cmakepolicies.1
+usr/share/man/man1/cmakeprops.1
+usr/share/man/man1/cmakevars.1

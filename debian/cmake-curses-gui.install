@@ -1,0 +1,3 @@
+usr/bin/ccmake
+usr/share/doc/cmake/ccmake.* usr/share/doc/cmake-curses-gui/
+usr/share/man/man1/ccmake.1
