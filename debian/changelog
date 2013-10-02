@@ -1,4 +1,4 @@
-cmake (2.8.11.2~zvelo) lucid; urgency=low
+cmake (2.8.11.2~lucid~zvelo) lucid; urgency=low
 
   * upgrade to 2.8.11.2
 
