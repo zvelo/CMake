@@ -53,18 +53,3 @@ set(GetPrerequisites_PreArgs
   "-DCTEST_CONFIGURATION_TYPE:STRING=\\\${CTEST_CONFIGURATION_TYPE}"
   )
 AddCMakeTest(GetPrerequisites "${GetPrerequisites_PreArgs}")
-
-# Run CheckSourceTree as the very last test in the CMake/CTest/CPack test
-# suite. It detects if any changes have been made to the CMake source tree
-# by any previous configure, build or test steps.
-#
-if(GIT_EXECUTABLE)
-  string(REPLACE "\\" "/" ENV_HOME "$ENV{HOME}")
-  set(CheckSourceTree_PreArgs
-    "-DCMake_BINARY_DIR:PATH=${CMake_BINARY_DIR}"
-    "-DCMake_SOURCE_DIR:PATH=${CMake_SOURCE_DIR}"
-    "-DGIT_EXECUTABLE:STRING=${GIT_EXECUTABLE}"
-    "-DHOME:STRING=${ENV_HOME}"
-    )
-  AddCMakeTest(CheckSourceTree "${CheckSourceTree_PreArgs}")
-endif()
