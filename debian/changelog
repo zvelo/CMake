@@ -1,3 +1,9 @@
+cmake (2.8.11.2~lucid~zvelo1) lucid; urgency=low
+
+  * bump version to work around reprepro error
+
+ -- Joshua Rubin <jrubin@zvelo.com>  Fri, 04 Oct 2013 09:02:41 -0600
+
 cmake (2.8.11.2~lucid~zvelo) lucid; urgency=low
 
   * upgrade to 2.8.11.2
